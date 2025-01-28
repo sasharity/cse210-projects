@@ -37,7 +37,7 @@ class Program
         int largest_number = numbers[0];
         foreach (int number in numbers)
         {
-            if (number > largest_number);
+            if (number > largest_number)
             largest_number = number;
         }
         Console.WriteLine($"The largest number is {largest_number}");   
